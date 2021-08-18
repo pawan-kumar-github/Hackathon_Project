@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.TestScenarios.TestCase">
+        <methods>
+          <include name="verifyPageTitle"/>
+          <include name="emailWarningMessage"/>
+          <include name="chooseManufacturer"/>
+          <include name="moveFocusToLoginWindow"/>
+          <include name="launchBrowser"/>
+          <include name="selectCity"/>
+          <include name="clickOnContinueWithGoogle"/>
+          <include name="enterInvalidUsername"/>
+          <include name="hoverOnNewBikes"/>
+          <include name="scrollDownToViewMoreBikes"/>
+          <include name="hoverOnUsedCars"/>
+          <include name="scrollDownToViewPopularModels"/>
+          <include name="tearDown"/>
+          <include name="scrollUp"/>
+          <include name="displayPopularModels"/>
+          <include name="clickOnUpcomingBikes"/>
+          <include name="clickOnNext"/>
+          <include name="collapseLoginWindow"/>
+          <include name="pressLoginButton"/>
+          <include name="displayBikesUnderFourLakhs"/>
+          <include name="displayManufacturerList"/>
+          <include name="moveFocusToMainWindow"/>
+          <include name="clickToViewMoreBikes"/>
+          <include name="navigateToHomePage"/>
+        </methods>
+      </class> <!-- com.TestScenarios.TestCase -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
